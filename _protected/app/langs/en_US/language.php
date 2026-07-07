@@ -1,15 +1,14 @@
 <?php
 /**
  * @author         Pierre-Henry Soria <ph7software@gmail.com>
- * @copyright      (c) 2019, Pierre-Henry Soria. All Rights Reserved.
- * @license        GNU General Public License; See PH7.LICENSE.txt and PH7.COPYRIGHT.txt in the root directory.
- * @package        PH7 / App / Lang / It IT
+ * @copyright      (c) 2012-2019, Pierre-Henry Soria. All Rights Reserved.
+ * @license        MIT License; See LICENSE.md and COPYRIGHT.md in the root directory.
+ * @package        PH7 / App / Lang / En US
  */
 
 namespace PH7;
 
 defined('PH7') or exit('Restricted access');
-
 
 Framework\Registry\Registry::getInstance()->lang = [
 
@@ -68,7 +67,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'CK' => 'Cook Islands',
     'CR' => 'Costa Rica',
     'CI' => 'Cote D\'Ivorie (Ivory Coast)',
-    'HR' => 'Croatia (Hrvatska)',
+    'HR' => 'Croatia',
     'CU' => 'Cuba',
     'CY' => 'Cyprus',
     'CZ' => 'Czech Republic',
@@ -128,6 +127,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'KZ' => 'Kazakhstan',
     'KE' => 'Kenya',
     'KI' => 'Kiribati',
+    'XK' => 'Kosovo',
     'KW' => 'Kuwait',
     'KG' => 'Kyrgyzstan',
     'LA' => 'Laos',
@@ -140,7 +140,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'LT' => 'Lithuania',
     'LU' => 'Luxembourg',
     'MO' => 'Macau',
-    'MK' => 'Macedonia',
+    'MK' => 'North Macedonia',
     'MG' => 'Madagascar',
     'MW' => 'Malawi',
     'MY' => 'Malaysia',
@@ -157,6 +157,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'MD' => 'Moldova',
     'MC' => 'Monaco',
     'MN' => 'Mongolia',
+    'ME' => 'Montenegro',
     'MS' => 'Montserrat',
     'MA' => 'Morocco',
     'MZ' => 'Mozambique',
@@ -202,6 +203,7 @@ Framework\Registry\Registry::getInstance()->lang = [
     'ST' => 'Sao Tome And Principe',
     'SA' => 'Saudi Arabia',
     'SN' => 'Senegal',
+    'RS' => 'Serbia',
     'SC' => 'Seychelles',
     'SL' => 'Sierra Leone',
     'SG' => 'Singapore',
@@ -252,7 +254,6 @@ Framework\Registry\Registry::getInstance()->lang = [
     'EH' => 'Western Sahara',
     'WS' => 'Western Samoa',
     'YE' => 'Yemen',
-    'YU' => 'Yugoslavia',
     'ZM' => 'Zambia',
     'ZW' => 'Zimbabwe',
 
@@ -353,13 +354,13 @@ Framework\Registry\Registry::getInstance()->lang = [
     '+14' => '(UTC +14:00) Line Islands',
 
     /***** GENDER *****/
-    'male' => 'Maschio',
-    'female' => 'Femmina',
-    'couple' => 'Coppia',
-    'male,female' => 'maschio,femmina',
-    'male,couple' => 'maschio,coppia',
-    'female,couple' => 'femmina,coppia',
-    'male,female,couple' => 'maschio,femmina,coppia',
+    'male' => 'Man',
+    'female' => 'Woman',
+    'couple' => 'Couple',
+    'male,female' => 'Men and Women',
+    'male,couple' => 'Men and Couple',
+    'female,couple' => 'Women and Couple',
+    'male,female,couple' => 'Men, Women and Couple',
 
     /***** BYTE UNIT *****/
     'byte' => '%0% Bytes',
@@ -369,10 +370,9 @@ Framework\Registry\Registry::getInstance()->lang = [
     'terabyte' => '%0% TB',
 
     /***** USER'S INFO FIELDS *****/
-    'address' => 'indirizzo:',
-    'street' => 'via:',
-    'middlename' => 'cognome:',
-    'businessname' => 'impresa:',
-    'taxid' => 'identificativo fiscale:',
+    'address' => 'Address:',
+    'middlename' => 'Middle Name:',
+    'businessname' => 'Business Name:',
+    'taxid' => 'Tax ID, VAT or SSN:',
 
 ];
